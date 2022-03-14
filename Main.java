@@ -53,7 +53,7 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
     public static void menu(ArrayList<Blueprint> options) {
         System.out.println("Please choose something");
         for (int i = 0; i < options.size(); i++)
-            System.out.println("Option " + i + 1 + ": " + options.get(i).getTitle());
+            System.out.println("Option " + (int) (i + 1) + ": " + options.get(i).getTitle());
 
         Scanner scanner = new Scanner(System.in);
         try {
