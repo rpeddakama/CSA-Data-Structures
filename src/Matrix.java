@@ -3,12 +3,10 @@ package src;
 import java.util.HashMap;
 
 public class Matrix extends Blueprint {
-    private final int[][] matrix;
     HashMap<Integer, String> hexValues = new HashMap<Integer, String>();
 
     public Matrix(String optionTitle) {
         super(optionTitle);
-        this.matrix = keypad();
 
         hexValues.put(10, "a");
         hexValues.put(11, "b");
