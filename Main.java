@@ -38,6 +38,7 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
         options.add(new Sample("sample"));
         options.add(new Sample("sample2"));
         options.add(new Swap("swap"));
+        options.add(new Matrix("matrix"));
         options.add(new Exit("exit"));
 
         while (true) {
