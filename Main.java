@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Scanner; //java library for user input
 import src.Blueprint;
 import src.Exit;
+import src.Matrix;
 import src.Sample;
 import src.Swap;
 
