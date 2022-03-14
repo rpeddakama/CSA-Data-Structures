@@ -11,6 +11,7 @@ import java.util.Scanner; //java library for user input
 import src.Blueprint;
 import src.Exit;
 import src.Sample;
+import src.Swap;
 
 /**
  * Main - entry point class for this project
@@ -36,6 +37,7 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
         ArrayList<Blueprint> options = new ArrayList<Blueprint>();
         options.add(new Sample("sample"));
         options.add(new Sample("sample2"));
+        options.add(new Swap("swap"));
         options.add(new Exit("exit"));
 
         while (true) {
@@ -49,12 +51,12 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
     public static void menu(ArrayList<Blueprint> options) {
         System.out.println("Please choose something");
         for (int i = 0; i < options.size(); i++)
-            System.out.println("Option " + i + ": " + options.get(i).getTitle());
+            System.out.println("Option " + i + 1 + ": " + options.get(i).getTitle());
 
         Scanner scanner = new Scanner(System.in);
         try {
             int choice = scanner.nextInt();
-            options.get(choice).run();
+            options.get(choice - 1).run();
             System.out.println();
         } catch (Exception e) {
             System.out.println("Invalid input");
