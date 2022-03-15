@@ -4,3 +4,8 @@
 
 layout: default
 ---
+
+# Access links below to navigate to different sections
+- [Data structures work]({{ site.baseurl }}{% link datastructures.markdown %})
+- [Tech Talk Notes]({{ site.baseurl }}{% link TTnotes.markdown %})
+- [Test Prep]({{ site.baseurl }}{% link testprep.markdown %})
