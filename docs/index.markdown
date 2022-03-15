@@ -6,6 +6,6 @@ layout: default
 ---
 
 # Access links below to navigate to different sections
-- [Data structures work]({% link datastructures.markdown %})
-- [Tech Talk Notes]({{ site.baseurl }}{% link TTnotes.markdown %})
-- [Test Prep]({{ site.baseurl }}{% link testprep.markdown %})
+- [Data structures work](https://rpeddakama.github.io/CSA-Data-Structures/datastructures.html)
+- [Tech Talk Notes](https://rpeddakama.github.io/CSA-Data-Structures/TTnotes.html)
+- [Test Prep](https://rpeddakama.github.io/CSA-Data-Structures/testprep.html)
