@@ -61,11 +61,12 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
             options.get(choice - 1).run();
             System.out.println();
         } catch (Exception e) {
+            System.out.println(e.getMessage());
             System.out.println("Invalid input");
         }
 
-        if (scanner != null)
-            scanner.close();
+        // if (scanner != null)
+        // scanner.close();
     }
 
 }

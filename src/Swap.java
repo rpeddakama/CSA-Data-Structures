@@ -16,7 +16,7 @@ public class Swap extends Blueprint {
 
             System.out.println("BEFORE: a is: " + a + " b is: " + b);
 
-            if (a < b) {
+            if (a > b) {
                 int temp = b;
                 b = a;
                 a = temp;
