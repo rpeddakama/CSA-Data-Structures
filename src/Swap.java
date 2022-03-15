@@ -15,9 +15,12 @@ public class Swap extends Blueprint {
             int b = scanner.nextInt();
 
             System.out.println("BEFORE: a is: " + a + " b is: " + b);
-            int temp = b;
-            b = a;
-            a = temp;
+
+            if (a < b) {
+                int temp = b;
+                b = a;
+                a = temp;
+            }
             System.out.println("AFTER: a is: " + a + " b is: " + b);
         } catch (Exception e) {
             System.out.println("Invalid input, try again");
