@@ -24,4 +24,4 @@ permalink: /
 
 - [Data structures work](/datastructures)
 - [Tech Talk Notes](/ttnotes)
-- [Test Prep](/testprep)
+- [Test Prep]({{site.baseurl}}/testprep)
