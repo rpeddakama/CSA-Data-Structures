@@ -7,7 +7,4 @@ title: Rishi's Individual Wiki - Home Page
 permalink: /
 ---
 
-# Access links below to navigate to different sections
-- [Data structures work](/{{site.baseurl}}/datastructures)
-- [Tech Talk Notes](/{{site.baseurl}}/ttnotes)
-- [Test Prep](/{{site.baseurl}}/testprep)
+{% include navigation.md %}
