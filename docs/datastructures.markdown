@@ -5,7 +5,7 @@
 layout: default
 title: Data Structures
 description: View the table below to access source code, runtime, and review tickets for weekly tech talks
-permalink: {{ site.baseurl }}/datastructures/
+permalink: /datastructures/
 ---
 
 | Week | Solution Source Code (GitHub) | Links to Code Snippets (GitHub) | Runtime (replit) | Ticket |
