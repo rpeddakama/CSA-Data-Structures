@@ -8,6 +8,8 @@ description: Notes I take during tech talks with the teacher
 permalink: /ttnotes/
 ---
 
+{% include navigation.md %}
+
 Each week during our Tech Talk meeting with the teacher and crossover group, I will be taking notes here on important concepts talked about. Then, come study time, I can look at these bullet points and study stuff efficiently.
 
 ## [TT0 - Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures)
