@@ -3,6 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: Data Structures
+description: View the table below to access source code, runtime, and review tickets for weekly tech talks
 permalink: /datastructures/
 ---
 

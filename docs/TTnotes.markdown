@@ -3,6 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: Tech Talk Notes
+description: Notes I take during tech talks with the teacher
 permalink: /ttnotes/
 ---
 

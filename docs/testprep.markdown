@@ -3,6 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: Test Prep
+description: Some notes on my test prep plans for this trimester
 permalink: /testprep/
 ---
 
