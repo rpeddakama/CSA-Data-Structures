@@ -8,10 +8,9 @@ description: Notes I take during tech talks with the teacher
 permalink: /ttnotes/
 ---
 
-# Tech Talk Notes
 Each week during our Tech Talk meeting with the teacher and crossover group, I will be taking notes here on important concepts talked about. Then, come study time, I can look at these bullet points and study stuff efficiently.
 
-# [TT0 - Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures)
+## [TT0 - Data Structures](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-0---Data-Structures)
 Important Notes and Takeaways:
 * A data structure is a method of organizing data. Think of a variable holding a single integer value(ex: int n=4;) or sequences of numbers(ex: int[] numbers=new int[]{ 1,2,3 };) or tables of data, or databases: these are all well-defined data structures.
 * Data Structures and organizing data will require students to become more algorithmic in coding.

@@ -8,7 +8,6 @@ description: Some notes on my test prep plans for this trimester
 permalink: /testprep/
 ---
 
-# Test Prep Plans and Participation for Success on AP exam 
 * I will look at the journal I made in Trimester one that contained collegeboard notes on the test topics, information on tech talks taught in class and other things. It is very organized so it should be very easy to navigate through content and access what I want.
 * In the first tri, we took many collegeboard quizzes on basic java concepts. I will go back and review these tests and primarily focus on the question I got wrong. I will see why I got them wrong, what the correct answer is, and how to avoid the mistake in the future.
 * Something that will be crucial for me to do well on AP exams is participating well on the assignments assigned to us. Constant repetition of java over this trimester will engrain good code writing habits for the exam.
