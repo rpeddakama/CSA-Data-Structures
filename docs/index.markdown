@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: Rishi's Individual Wiki - Home Page
 permalink: /
 ---
 
@@ -10,3 +11,4 @@ permalink: /
 - [Data structures work](/{{site.baseurl}}/datastructures)
 - [Tech Talk Notes](/{{site.baseurl}}/ttnotes)
 - [Test Prep](/{{site.baseurl}}/testprep)
+- [Test Prep]({{site.baseurl}}/testprep)
