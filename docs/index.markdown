@@ -16,12 +16,6 @@ permalink: /
 <h2>bottom</h2>
 
 # Access links below to navigate to different sections
-- [Data structures work](https://rpeddakama.github.io/CSA-Data-Structures/datastructures.html)
-- [Tech Talk Notes](https://rpeddakama.github.io/CSA-Data-Structures/TTnotes.html)
-- [Test Prep](https://rpeddakama.github.io/CSA-Data-Structures/testprep.html)
-
----
-
 - [Data structures work](/{{site.baseurl}}/datastructures)
 - [Tech Talk Notes](/{{site.baseurl}}/ttnotes)
 - [Test Prep](/{{site.baseurl}}/testprep)
