@@ -27,8 +27,6 @@ public class QueueAddRemove extends Blueprint {
             System.out.println("5 - Exit");
 
             int choice = scanner.nextInt();
-            if (choice == 5)
-                break;
             if (choice == 1) {
                 System.out.println("Enter a string to add");
                 queue.add(scanner.next());
@@ -46,6 +44,9 @@ public class QueueAddRemove extends Blueprint {
             }
             if (choice == 4) {
                 System.out.println("Size of queue: " + queue.size());
+            }
+            if (choice == 5) {
+                break;
             }
         }
     }
