@@ -17,7 +17,7 @@ public class QueueAddRemove extends Blueprint {
         while (true) {
             Scanner scanner = new Scanner(System.in);
 
-            System.out.println("-------------------------");
+            System.out.println("\n-------------------------");
             System.out.println("Choose from these choices");
             System.out.println("-------------------------");
             System.out.println("1 - Enqueue Items to Queue");
