@@ -16,7 +16,7 @@ public class QueueAddRemove extends Blueprint {
 
         while (true) {
             Scanner scanner = new Scanner(System.in);
-
+            // various options for a user to choose from regarding queue operations
             System.out.println("\n-------------------------");
             System.out.println("Choose from these choices");
             System.out.println("-------------------------");
@@ -45,6 +45,7 @@ public class QueueAddRemove extends Blueprint {
             if (choice == 4) {
                 System.out.println("Size of queue: " + queue.size());
             }
+            // exit this challenge
             if (choice == 5) {
                 break;
             }

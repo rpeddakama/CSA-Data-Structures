@@ -39,6 +39,8 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
      */
 
     static public void main(String[] args) { // open squig begins the method
+
+        // 2D array to signify between weeks and challenges
         ArrayList<ArrayList<Blueprint>> options = new ArrayList<ArrayList<Blueprint>>();
         ArrayList<Blueprint> week0 = new ArrayList<Blueprint>();
         ArrayList<Blueprint> week1 = new ArrayList<Blueprint>();
@@ -52,6 +54,8 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
 
         options.add(week0);
         options.add(week1);
+
+        // keep running until exit is called
         while (true) {
             menu(options);
         }
@@ -69,7 +73,10 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
         Blueprint exit = new Exit("exit");
 
         Scanner scanner = new Scanner(System.in);
+
+        // try catch around any function in order to protect against invalid inputs
         try {
+            //scanner gets week and then challenge choice before .run()
             int weekChoice = scanner.nextInt();
             if (weekChoice == options.size())
                 exit.run();

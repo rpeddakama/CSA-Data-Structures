@@ -11,6 +11,7 @@ public class MergeQueue extends Blueprint {
     }
 
     public void run() {
+        // initialize 2 queues with values in sorted order
         int[] arr1 = { 1, 4, 7, 8, 12, 15, 99, 210, 867, 991 };
         Queue<Integer> q1 = new LinkedList<>();
         for (int x : arr1)
@@ -21,9 +22,11 @@ public class MergeQueue extends Blueprint {
         for (int x : arr2)
             q2.add(x);
 
+        // print initial queues
         System.out.println("Queue 1 before: " + q1);
         System.out.println("Queue 2 before: " + q2);
 
+        // sort them by comparing head values and adding the smaller one to merged queue
         Queue<Integer> merged = new LinkedList<>();
         int qSize = q1.size();
         for (int i = 0; i < qSize; i++) {
@@ -36,6 +39,7 @@ public class MergeQueue extends Blueprint {
             }
         }
 
+        // print final merged queue
         System.out.println("Sorted Merged Queues: " + merged);
 
     }
