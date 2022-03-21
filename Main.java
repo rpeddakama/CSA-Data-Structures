@@ -14,6 +14,9 @@ import src.Exit;
 import src.Sample;
 import src.Week0.Matrix;
 import src.Week0.Swap;
+import src.Week1.MergeQueue;
+import src.Week1.QueueAddRemove;
+import src.Week1.StackQueue;
 
 /**
  * Main - entry point class for this project
@@ -43,7 +46,12 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
         week0.add(new Swap("swap"));
         week0.add(new Matrix("matrix"));
 
+        week1.add(new QueueAddRemove("Queue Add-Remove"));
+        week1.add(new MergeQueue("Merge Queues"));
+        week1.add(new StackQueue("Stack to Queue"));
+
         options.add(week0);
+        options.add(week1);
         while (true) {
             menu(options);
         }
@@ -72,7 +80,6 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
 
             int choice = scanner.nextInt();
             options.get(weekChoice).get(choice - 1).run();
-            System.out.println("Invalid input");
 
             System.out.println();
 
