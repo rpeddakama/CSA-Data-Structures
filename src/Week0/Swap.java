@@ -1,6 +1,8 @@
-package src;
+package src.Week0;
 
 import java.util.Scanner;
+
+import src.Blueprint;
 
 public class Swap extends Blueprint {
     public Swap(String optionTitle) {

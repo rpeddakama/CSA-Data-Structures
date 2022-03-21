@@ -1,6 +1,8 @@
-package src;
+package src.Week0;
 
 import java.util.HashMap;
+
+import src.Blueprint;
 
 public class Matrix extends Blueprint {
     HashMap<Integer, String> hexValues = new HashMap<Integer, String>();

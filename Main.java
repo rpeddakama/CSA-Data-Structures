@@ -6,6 +6,7 @@ Creator: Rishi Peddakama
 Imports allow you to use code already written by others.  
 Java has many standard libraries. The names around the dots in import often give you a hint to the originator of the code.
  */
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner; //java library for user input
 import src.Blueprint;
@@ -35,12 +36,13 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
      */
 
     static public void main(String[] args) { // open squig begins the method
-        ArrayList<Blueprint> options = new ArrayList<Blueprint>();
-        options.add(new Sample("sample"));
-        options.add(new Sample("sample2"));
-        options.add(new Swap("swap"));
-        options.add(new Matrix("matrix"));
-        options.add(new Exit("exit"));
+        ArrayList<ArrayList<Blueprint>> options = new ArrayList<ArrayList<Blueprint>>();
+        ArrayList<Blueprint> week0 = new ArrayList<Blueprint>();
+        ArrayList<Blueprint> week1 = new ArrayList<Blueprint>();
+
+        week0.add(new Swap("swap"));
+        week0.add(new Matrix("matrix"));
+        week0.add(new Exit("exit"));
 
         while (true) {
             menu(options);
@@ -50,10 +52,10 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
     /**
      * menu - method that is activated by main, this will perform Java code
      */
-    public static void menu(ArrayList<Blueprint> options) {
-        System.out.println("Please choose something");
+    public static void menu(ArrayList<ArrayList<Blueprint>> options) {
+        System.out.println("Which Weeks Challenges Would You Like to Access?");
         for (int i = 0; i < options.size(); i++)
-            System.out.println("Option " + (int) (i + 1) + ": " + options.get(i).getTitle());
+            System.out.println("Week " + i);
 
         Scanner scanner = new Scanner(System.in);
         try {
