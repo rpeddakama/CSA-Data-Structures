@@ -11,9 +11,9 @@ import java.util.ArrayList;
 import java.util.Scanner; //java library for user input
 import src.Blueprint;
 import src.Exit;
-import src.Matrix;
 import src.Sample;
-import src.Swap;
+import src.Week0.Matrix;
+import src.Week0.Swap;
 
 /**
  * Main - entry point class for this project
@@ -42,8 +42,8 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
 
         week0.add(new Swap("swap"));
         week0.add(new Matrix("matrix"));
-        week0.add(new Exit("exit"));
 
+        options.add(week0);
         while (true) {
             menu(options);
         }
@@ -53,15 +53,29 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
      * menu - method that is activated by main, this will perform Java code
      */
     public static void menu(ArrayList<ArrayList<Blueprint>> options) {
-        System.out.println("Which Weeks Challenges Would You Like to Access?");
+        System.out.println("Which weeks' challenges would you like to access?");
         for (int i = 0; i < options.size(); i++)
-            System.out.println("Week " + i);
+            System.out.println("Week: " + i);
+
+        System.out.println("Exit: " + options.size());
+        Blueprint exit = new Exit("exit");
 
         Scanner scanner = new Scanner(System.in);
         try {
+            int weekChoice = scanner.nextInt();
+            if (weekChoice == options.size())
+                exit.run();
+
+            System.out.println("Choose a challenge:");
+            for (int i = 0; i < options.get(weekChoice).size(); i++)
+                System.out.println("Option " + (int) (i + 1) + ": " + options.get(weekChoice).get(i).getTitle());
+
             int choice = scanner.nextInt();
-            options.get(choice - 1).run();
+            options.get(weekChoice).get(choice - 1).run();
+            System.out.println("Invalid input");
+
             System.out.println();
+
         } catch (Exception e) {
             System.out.println(e.getMessage());
             System.out.println("Invalid input");
