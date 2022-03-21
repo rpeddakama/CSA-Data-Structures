@@ -12,5 +12,5 @@ permalink: /datastructures/
 
 | Week | Solution Source Code (GitHub) | Links to Code Snippets (GitHub) | Runtime (replit) | Ticket |
 | - | - | - | - | - |
-| 0 |[Here](https://github.com/rpeddakama/CSA-Data-Structures/tree/master/src)| [Here](https://github.com/rpeddakama/CSA-Data-Structures/blob/master/src/Matrix.java#L31-L60)| [Here](https://replit.com/@RishiPeddakama/CSA-Data-Structures) | [Here](https://github.com/nolanplatt/AP-CSA-T3/issues/6) |
-| 1 | [Here]() | [Here]() | [Here]() | [Here]() |
+| 0 |[Here](https://github.com/rpeddakama/CSA-Data-Structures/tree/master/src/Week0)| [Here](https://github.com/rpeddakama/CSA-Data-Structures/blob/master/src/Week0/Matrix.java#L33-L60)| [Here](https://replit.com/@RishiPeddakama/CSA-Data-Structures) | [Here](https://github.com/nolanplatt/AP-CSA-T3/issues/6) |
+| 1 | [Here](https://github.com/rpeddakama/CSA-Data-Structures/tree/master/src/Week1) | [Here](https://github.com/rpeddakama/CSA-Data-Structures/blob/master/src/Week1/QueueAddRemove.java#L29-L50) | [Here](https://replit.com/@RishiPeddakama/CSA-Data-Structures) | [Here](https://github.com/rpeddakama/AP-CSA-T3/issues/24) |

@@ -26,4 +26,13 @@ Tasks
 * Matrix challenge - practicing 2D array manipulation and for loops
 * All of these challenges will be encapsulated in an abstract class that makes the menu dynamic.
  
-# TT1 - TBD
+# [TT1 - Linked Lists](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-1:-Linked-Lists-Part-2)
+Important Notes and Takeaways:
+* Link lists are an advanced type of array that has many child classes most notably stacks and queues. These datastructures are specifically tailored to have a single purpose
+* Stacks, as the name suggests, follow the Last in First Out (LIFO) when inputting and retreiving data
+* Queues, on the other hand, follow the First in First Out (FIFO) when inputting and retreiving. Kind of like a line at the store where the first person in line is spoken to first.
+
+Tasks
+* Practice using queues while having a console interface that allows a user to add to the queue, remove from the queue (dequeue) and printed the size and content of it. Will likely incorporate poll(), remove(), element() functions
+* Practice merging sorted queues into a combined sorted queue. Use poll() instead of element() to make it more efficient
+* Convert a queue to a stack using iteration and understanding how each data structure works FIFO vs LIFO
