@@ -17,6 +17,7 @@ import src.Week0.Swap;
 import src.Week1.MergeQueue;
 import src.Week1.QueueAddRemove;
 import src.Week1.StackQueue;
+import src.Week2.Calculator;
 
 /**
  * Main - entry point class for this project
@@ -44,6 +45,7 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
         ArrayList<ArrayList<Blueprint>> options = new ArrayList<ArrayList<Blueprint>>();
         ArrayList<Blueprint> week0 = new ArrayList<Blueprint>();
         ArrayList<Blueprint> week1 = new ArrayList<Blueprint>();
+        ArrayList<Blueprint> week2 = new ArrayList<Blueprint>();
 
         week0.add(new Swap("swap"));
         week0.add(new Matrix("matrix"));
@@ -52,8 +54,11 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
         week1.add(new MergeQueue("Merge Queues"));
         week1.add(new StackQueue("Stack to Queue"));
 
+        week2.add(new Calculator("RPN Calculator"));
+
         options.add(week0);
         options.add(week1);
+        options.add(week2);
 
         // keep running until exit is called
         while (true) {
