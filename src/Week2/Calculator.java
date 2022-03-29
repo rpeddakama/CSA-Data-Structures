@@ -3,6 +3,7 @@ package src.Week2;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Stack;
 
 import src.Blueprint;
@@ -209,15 +210,12 @@ public class Calculator extends Blueprint {
     }
 
     public void run() {
-        String[] trials = { "100 + 200  * 3", "PYTHAG(3 (2+2))", "SQRT(4 + 12) + 5", "2 ^ 2", "(100 + 200)  * 3",
-                "100.2 - 99.3",
-                "300 % 200" };
-        // "300/200", "300 * 200", "200 % 300 + 5 + 300 / 200 + 1 * 100", "200 % (300 +
-        // 5 + 300) / 200 + 1 * 100",
-        // "200%(300+5+300)/200+1*100" };
-        for (String s : trials) {
-            // initial string
-            this.expression = s;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Press 1 if you want input");
+
+        if(scanner.nextInt() == 1){
+            System.out.println("Enter the expression (one line)");
+            this.expression = scanner.next();
 
             // parse expression into terms
             this.termTokenizer();
@@ -229,6 +227,28 @@ public class Calculator extends Blueprint {
             this.rpnToResult();
 
             System.out.println(toString());
+        } else{
+            String[] trials = { "100 + 200  * 3", "PYTHAG(3 (2+2))", "SQRT(4 + 12) + 5", "2 ^ 2", "(100 + 200)  * 3",
+                "100.2 - 99.3",
+                "300 % 200" };
+                // "300/200", "300 * 200", "200 % 300 + 5 + 300 / 200 + 1 * 100", "200 % (300 +
+                // 5 + 300) / 200 + 1 * 100",
+                // "200%(300+5+300)/200+1*100" };
+            for (String s : trials) {
+                // initial string
+                this.expression = s;
+
+                // parse expression into terms
+                this.termTokenizer();
+
+                // place terms into reverse polish notation
+                this.tokensToReversePolishNotation();
+
+                // calculate reverse polish notation
+                this.rpnToResult();
+
+                System.out.println(toString());
+            }
         }
     }
 
