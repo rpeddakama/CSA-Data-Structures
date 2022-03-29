@@ -36,3 +36,16 @@ Tasks
 * Practice using queues while having a console interface that allows a user to add to the queue, remove from the queue (dequeue) and printed the size and content of it. Will likely incorporate poll(), remove(), element() functions
 * Practice merging sorted queues into a combined sorted queue. Use poll() instead of element() to make it more efficient
 * Convert a queue to a stack using iteration and understanding how each data structure works FIFO vs LIFO
+
+# [TT2 - Stacks, ArrayLists](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-2:-Calculator)
+Important Notes and Takeaways:
+* Reverse Polish Notation (RPN) is typically how computers evaluate mathematical expressions
+* They do not involve paranthesis or order of operations but rather follow a simple postfix method. A method that makes it very easy for an algorithm to iterate over a post-fix string rather than store too much memory using the general order of operations methods.
+* Algorithms for these can be implemented using a combination of arrayLists and Stacks to "peek" the current value in the expression and hold previous popped values in memory
+
+Tasks
+* Using boilerplate given - implement the final function to do the following: 
+1. Build a calculator to process expressions and ultimately change RPN to a calculation.
+2. Build in Power of operator ^: 2 ^ 1 = 2, 2 ^ 2 = 4, 2 ^ 3 = 8
+3. Extra credit. Build variable assignment and evaluation into your expressions (a = 2; a + 1).
+4. Extra credit. Investigate Wikipedia article and pseudo code and try adding a SQRT(). Try building Pythagoras expression.
