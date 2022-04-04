@@ -70,6 +70,6 @@ public class SelectionSort {
 
         System.out.println("Average # of sorts: " + sortAverage / 10.0);
         System.out.println("Average # of comparisons: " + comparisonAverage / 10.0);
-        System.out.println("Average # time spent: " + timeAverage / 10.0);
+        System.out.println("Average # time spent: " + timeAverage / 10.0 + " nanoseconds");
     }
 }
