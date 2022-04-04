@@ -49,3 +49,13 @@ Tasks
 2. Build in Power of operator ^: 2 ^ 1 = 2, 2 ^ 2 = 4, 2 ^ 3 = 8
 3. Extra credit. Build variable assignment and evaluation into your expressions (a = 2; a + 1).
 4. Extra credit. Investigate Wikipedia article and pseudo code and try adding a SQRT(). Try building Pythagoras expression.
+
+# [TT3 - Sorting Algorithms](https://github.com/nighthawkcoders/nighthawk_csa/wiki/Tri-3:-Tech-Talk-3:-Sorts)
+Important Notes and Takeaways
+* Sorting is one of the most important concepts in computer science and is used in nearly all types of operations where it be a menial task of sorting an array of number to sorting complex objects by a certain criteria. As a result, the speed and memory necessary to complete these actions are very important and many algorithms have been developed to solve this problem of sorting in the fastest, most memory-efficient way.
+
+Specific Algorithm ANALYSIS
+* Bubble sort - compares each element with each other one in the array until placing it in the correct place. Does this for each element. This is done with a double for loop and thus the time complexity is O(n^2). It is O(n) if the array is already sorted
+* Selection sort - creates a sorted array by placing a new element one by one in its earliest position. This requires an additional array to be made which is additional memory however the time complexity is also O(n^2) because of the double for loop
+* Insertion sort - Inserts elements into the array where it is smaller than the most previous one. This also needs extra memory but is stil O(n^2) time complexity (though its slightly lower when broken down)
+* Merge sort - this is the best sort algorithm studied thus far because it takes on a binary-search approach to sorting an array by splitting it in half numerous times to a single comparison and then combining those after. It's time complexity is O(n*logn)
