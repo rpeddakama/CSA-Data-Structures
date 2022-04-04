@@ -18,6 +18,7 @@ import src.Week1.MergeQueue;
 import src.Week1.QueueAddRemove;
 import src.Week1.StackQueue;
 import src.Week2.Calculator;
+import src.Week3.Sorts;
 
 /**
  * Main - entry point class for this project
@@ -46,6 +47,7 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
         ArrayList<Blueprint> week0 = new ArrayList<Blueprint>();
         ArrayList<Blueprint> week1 = new ArrayList<Blueprint>();
         ArrayList<Blueprint> week2 = new ArrayList<Blueprint>();
+        ArrayList<Blueprint> week3 = new ArrayList<Blueprint>();
 
         week0.add(new Swap("swap"));
         week0.add(new Matrix("matrix"));
@@ -56,9 +58,12 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
 
         week2.add(new Calculator("RPN Calculator"));
 
+        week3.add(new Sorts("Sorts"));
+
         options.add(week0);
         options.add(week1);
         options.add(week2);
+        options.add(week3);
 
         // keep running until exit is called
         while (true) {
@@ -80,25 +85,25 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
         Scanner scanner = new Scanner(System.in);
 
         // try catch around any function in order to protect against invalid inputs
-        try {
-            //scanner gets week and then challenge choice before .run()
-            int weekChoice = scanner.nextInt();
-            if (weekChoice == options.size())
-                exit.run();
+        // try {
+        // scanner gets week and then challenge choice before .run()
+        int weekChoice = scanner.nextInt();
+        if (weekChoice == options.size())
+            exit.run();
 
-            System.out.println("Choose a challenge:");
-            for (int i = 0; i < options.get(weekChoice).size(); i++)
-                System.out.println("Option " + (int) (i + 1) + ": " + options.get(weekChoice).get(i).getTitle());
+        System.out.println("Choose a challenge:");
+        for (int i = 0; i < options.get(weekChoice).size(); i++)
+            System.out.println("Option " + (int) (i + 1) + ": " + options.get(weekChoice).get(i).getTitle());
 
-            int choice = scanner.nextInt();
-            options.get(weekChoice).get(choice - 1).run();
+        int choice = scanner.nextInt();
+        options.get(weekChoice).get(choice - 1).run();
 
-            System.out.println();
+        System.out.println();
 
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-            System.out.println("Invalid input");
-        }
+        // } catch (Exception e) {
+        // System.out.println(e.getMessage());
+        // System.out.println("Invalid input");
+        // }
 
         // if (scanner != null)
         // scanner.close();
