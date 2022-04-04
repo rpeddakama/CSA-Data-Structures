@@ -19,24 +19,21 @@ public class Sorts extends Blueprint {
                 "Which sort algorithm would you like to see?\n1: Bubble Sort\n2: Selection Sort\n3: Insertion Sort\n4: Merge Sort");
         int algo = scanner.nextInt();
 
+        // Simple switch statement to call the function for the specified algorithm
         switch (algo) {
             case 1:
-                // System.out.println("YO1");
                 BubbleSort bubbleSort = new BubbleSort();
                 bubbleSort.run();
                 break;
             case 2:
-                // System.out.println("YO2");
                 SelectionSort selectionSort = new SelectionSort();
                 selectionSort.run();
                 break;
             case 3:
-                // System.out.println("YO3");
                 InsertionSort insertionSort = new InsertionSort();
                 insertionSort.run();
                 break;
             case 4:
-                // System.out.println("YO4");
                 MergeSort mergeSort = new MergeSort();
                 mergeSort.run();
                 break;
