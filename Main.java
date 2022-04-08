@@ -8,6 +8,7 @@ Java has many standard libraries. The names around the dots in import often give
  */
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Queue;
 import java.util.Scanner; //java library for user input
 import src.Blueprint;
 import src.Exit;
@@ -55,6 +56,7 @@ public class Main { // Everything in Java is inside a class, Squigs, Squigalies,
         week1.add(new QueueAddRemove("Queue Add-Remove"));
         week1.add(new MergeQueue("Merge Queues"));
         week1.add(new StackQueue("Stack to Queue"));
+
 
         week2.add(new Calculator("RPN Calculator"));
 
