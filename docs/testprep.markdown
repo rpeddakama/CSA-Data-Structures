@@ -16,3 +16,8 @@ permalink: /testprep/
 * The last thing I will do is view FRQ implementations done during Trimester 2. These helped with making sure my java code did not have syntax errors and so I wouldn't make errors like that on the paper AP exam.
 
 **I will make an effort to set study goals with my teammates because I will be more accountable to get stuff down in that respect.**
+
+2014 FRQ Proof
+![image](https://user-images.githubusercontent.com/55494721/164642799-c7a1450d-bc3f-4a00-9885-4a2f5d3a5162.png)
+![image](https://user-images.githubusercontent.com/55494721/164642912-0ba23332-6fab-4b27-85ba-cdff0e103121.png)
+![image](https://user-images.githubusercontent.com/55494721/164642969-d75c336f-1dfb-4c6d-b6bf-d0e3387e078c.png)
