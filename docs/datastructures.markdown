@@ -10,6 +10,12 @@ permalink: /datastructures/
 
 {% include navigation.md %}
 
+<br>
+#### Repl Runtime
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@RishiPeddakama/CSA-Data-Structures?embed=true"></iframe>
+
+
+
 | Week | Solution Source Code (GitHub) | Links to Code Snippets (GitHub) | Runtime (replit) | Ticket |
 | - | - | - | - | - |
 | 0 |[Here](https://github.com/rpeddakama/CSA-Data-Structures/tree/master/src/Week0)| [Here](https://github.com/rpeddakama/CSA-Data-Structures/blob/master/src/Week0/Matrix.java#L33-L60)| [Here](https://replit.com/@RishiPeddakama/CSA-Data-Structures) | [Here](https://github.com/nolanplatt/AP-CSA-T3/issues/6) |
