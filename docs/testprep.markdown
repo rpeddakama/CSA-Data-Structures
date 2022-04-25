@@ -21,3 +21,21 @@ permalink: /testprep/
 ![image](https://user-images.githubusercontent.com/55494721/164642799-c7a1450d-bc3f-4a00-9885-4a2f5d3a5162.png)
 ![image](https://user-images.githubusercontent.com/55494721/164642912-0ba23332-6fab-4b27-85ba-cdff0e103121.png)
 ![image](https://user-images.githubusercontent.com/55494721/164642969-d75c336f-1dfb-4c6d-b6bf-d0e3387e078c.png)
+
+MC Corrections
+![image](https://user-images.githubusercontent.com/55494721/165102433-7baec88b-78d8-4c06-a464-ba8982f43832.png)
+Q-10: Correct answer is d because it has to do with wrapper classes and how children of abstract classes and interfaces can be considered as having "more" than one class definition.
+
+![image](https://user-images.githubusercontent.com/55494721/165102644-ae5269da-e616-4235-8978-e5dcf9cd610c.png)
+Q-19: Rushed this question and should have evaluated each condition with respect to the condition that is in the while loop. I will make sure not to do this during the actual test.
+
+![image](https://user-images.githubusercontent.com/55494721/165102837-659504f1-1951-48c1-b191-351a0b9122c7.png)
+Q-23: After reworking if after getting it wrong I got the write answer. I got it wrong the first time because I tried to solve it in my head rather than writing some values down on paper which would have made it a lot easier.
+
+![image](https://user-images.githubusercontent.com/55494721/165103049-0c9fee1f-5db9-4da4-bb00-fcdc33672d91.png)
+Q-26: Skipped this question but this problem was discussed in class and I know I would have gotten it right had I gone through the problem during he mock exam.
+
+![image](https://user-images.githubusercontent.com/55494721/165103290-e8ffa1d5-0d3b-4e5c-89ab-95e2eb0ffbf3.png)
+Q-29: I have seen similar code to this so I skimmed it really quickly and assumed that the code wanted to find the sum of each digit in the number but after further examination, I can see that 1 is being added each time which means its counting how "long" the number is rather than the sum of the digits.
+
+Q32-39: I would have gotten all of these right but I just ran out of time due to distractions in class so I will not put any corrections for these problems.
