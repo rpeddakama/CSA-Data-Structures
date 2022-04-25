@@ -21,11 +21,11 @@ permalink: /testprep/
 [See here](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing)
 
 ## Study Plan
-Monday - Today we will be crossover grading our FRQs. I will take this time to see the many ways people solved the frq problems taking not of the code efficiency, readability for a grader, and length of code (how long it would have taken to write them). This will make me better prepared for the FRQ portion of the test
-Tuesday - Today we will likely take another practice MC. This time, I will stay focused and should be able to finish the test within the bounds of the period and get a good score on it.
-Wednesday - Another review day. This day I will do test corrections for the MC questions I missed the day before taking not if the mistakes were because of silly mistakes/distractions or reading the question too fast or because I just didn't know how to solve it. I will watched supplemental videos based on the problem and fix it immediately
-Thursday - Today I will take a practice FRQ exam - again this time I will be super focused and finish the entire thing in class (which is a lot less time than the actual exam so I know I'll be prepared for that one when it comes to time management)
-Friday - Review mistakes from the FRQ yesterday, watch videos, and continue to learn just like my plan on Wednesday.
+- Monday - Today we will be crossover grading our FRQs. I will take this time to see the many ways people solved the frq problems taking not of the code efficiency, readability for a grader, and length of code (how long it would have taken to write them). This will make me better prepared for the FRQ portion of the test
+- Tuesday - Today we will likely take another practice MC. This time, I will stay focused and should be able to finish the test within the bounds of the period and get a good score on it.
+- Wednesday - Another review day. This day I will do test corrections for the MC questions I missed the day before taking not if the mistakes were because of silly mistakes/distractions or reading the question too fast or because I just didn't know how to solve it. I will watched supplemental videos based on the problem and fix it immediately
+- Thursday - Today I will take a practice FRQ exam - again this time I will be super focused and finish the entire thing in class (which is a lot less time than the actual exam so I know I'll be prepared for that one when it comes to time management)
+- Friday - Review mistakes from the FRQ yesterday, watch videos, and continue to learn just like my plan on Wednesday.
 
 ## Evidence of Studying
 FRQ Practice Evidence
