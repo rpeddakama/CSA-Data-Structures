@@ -20,6 +20,9 @@ permalink: /testprep/
 ## Individual Self Study Guide (journal from first tri)
 [See here](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing)
 
+## Repl link to FRQs
+[View it here](https://replit.com/@RishiPeddakama/frqs)
+
 ## Study Plan
 - Monday - Today we will be crossover grading our FRQs. I will take this time to see the many ways people solved the frq problems taking not of the code efficiency, readability for a grader, and length of code (how long it would have taken to write them). This will make me better prepared for the FRQ portion of the test
 - Tuesday - Today we will likely take another practice MC. This time, I will stay focused and should be able to finish the test within the bounds of the period and get a good score on it.
