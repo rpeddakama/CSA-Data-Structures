@@ -56,3 +56,11 @@ Q-29: I have seen similar code to this so I skimmed it really quickly and assume
 Q32-39: I would have gotten all of these right but I just ran out of time due to distractions in class so I will not put any corrections for these problems.
 
 
+FRQ Week 2
+![image](https://user-images.githubusercontent.com/55494721/166493219-9febce9f-5193-4398-adc5-addcae6d0993.png)
+![image](https://user-images.githubusercontent.com/55494721/166493282-8472dfd7-3a77-4a24-8b7d-afaa6f3bde20.png)
+![image](https://user-images.githubusercontent.com/55494721/166493312-7833ac88-2464-4c22-8466-6ed54c16c0bf.png)
+![image](https://user-images.githubusercontent.com/55494721/166493346-15e17a5c-3da9-4641-8420-d66ce7ffa254.png)
+
+MC Corrections
+The only questions I got wrong were ones with silly mistakes and those that involved casting and objects. I hadn't studied casting data types and objects yet but after reveiwing them now I know I can get these questions correct.
